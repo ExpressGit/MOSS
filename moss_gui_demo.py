@@ -1,7 +1,7 @@
 from accelerate import init_empty_weights, load_checkpoint_and_dispatch
 from transformers.generation.utils import logger
 from transformers import AutoConfig, AutoTokenizer, AutoModelForCausalLM
-from huggingface_hub import 
+from huggingface_hub import snapshot_download
 
 import mdtex2html
 import gradio as gr
